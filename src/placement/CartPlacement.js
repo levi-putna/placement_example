@@ -64,16 +64,16 @@ export default class CartPlacement extends AbstractPlacement {
             console.log(rand)
             switch(rand)
             {
-                case 1:
+                case 0:
                      type_config = {
                         type: StaticBannerPlacementType.getName(),
                         data : {
                             image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=Sample%20Placement%20Image&w=800&h=150',
-                            link: 'www.google.com'
+                            link: 'https://www.google.com.au/'
                         }
                     };
                     break;
-                case 2:
+                case 1:
                      type_config = {
                         type: HtmlBannerPlacementType.getName(),
                         data : {}
