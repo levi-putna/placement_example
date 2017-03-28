@@ -1,0 +1,19 @@
+.cart-placement {
+
+  &__loading {
+    min-height: 120px;
+    width: 100%;
+    border: 1px solid #333333;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+  }
+
+  &__link {
+    color: #443322;
+  }
+
+  &__image {
+
+  }
+}

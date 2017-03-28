@@ -1,0 +1,55 @@
+{
+  "name": "jumbo-react",
+  "version": "1.0.0",
+  "description": "Customer engagement tool",
+  "engines": {
+    "node": "4.1.2",
+    "npm": "3.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Your_Package_URL"
+  },
+  "main": "build/main.js",
+  "scripts": {
+    "start": "node devServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Levi Putna <levi.putna@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "del": "^2.2.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-react": "^6.8.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "gulp-param": "^1.0.3",
+    "gulp-util": "^3.0.7",
+    "gulp-webpack": "^1.5.0",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^3.10.1",
+    "postcss-loader": "^1.0.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.0"
+  }
+}

@@ -1,0 +1,108 @@
+.button {
+
+  display: inline-block;
+  position: relative;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0.8em 1em;
+  margin: 0.5em 0;
+  color: #ffffff;
+  border: none rgba(0, 0, 0, 0);
+  background-color: #ff7311;
+  text-decoration: none;
+  border-radius: 2px;
+
+  /* Firefox: Get rid of the inner focus border */
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+
+  &:hover, &--hover {
+    background-color: #ff5e18;
+  }
+
+  &:focus, &--focus {
+    outline: 0;
+  }
+
+  &:active, &--active {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.20) inset;
+    border-color: #000 \9
+  ;
+  }
+
+  &[disabled], &--disabled {
+    border: none;
+    background-color: #717274;
+    color: darken(#ffffff, 20%);
+    background-image: none;
+    opacity: 0.40;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+
+  &--loading {
+    animation: 2s button-bulge infinite ease-out;
+  }
+
+  &--hidden {
+    display: none;
+  }
+
+  &--block {
+    display: block;
+    width: 100%;
+  }
+
+  &--primary {
+
+    background-color: #4192ff;
+
+    &:hover, &--hover {
+      background-color: #3666ff;
+    }
+
+  }
+
+  /* Size varients */
+  &--xsmall {
+    font-size: 11px;
+  }
+
+  &--small {
+    font-size: 14px;
+  }
+
+  &--large {
+    font-size: 18px;
+  }
+
+  &--xlarge {
+    font-size: 24px;
+  }
+
+  &--block {
+    display: block;
+    width: 100%;
+  }
+
+  &--thin {
+    padding: 0.4em 1em;
+  }
+
+}
+
+@keyframes button-bulge {
+  50% {
+    transform: scale(1.05);
+  }
+}
