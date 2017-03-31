@@ -12,6 +12,10 @@ function main() {
     //Target the dome elements you want to mount a placement to.
     const CART_MOUNT_NODE = document.getElementById('cart-placement');
     render(<CartPlacement />, CART_MOUNT_NODE);
+
+    //Target the dome elements you want to mount a placement to.
+    const HERO_MOUNT_NODE = document.getElementById('hero-placement');
+    render(<CartPlacement />, HERO_MOUNT_NODE);
 }
 
 /**

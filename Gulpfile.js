@@ -55,6 +55,10 @@ gulp.task('_build:clean', false, function () {
     return del(config.dest + '/**', {force: true});
 });
 
+
+
+
+
 gulp.task('__build', 'Build the project for an environment', ['_build:clean'], function () {
 
         //Move index html into build
@@ -68,6 +72,11 @@ gulp.task('__build', 'Build the project for an environment', ['_build:clean'], f
             .pipe(gulp.dest(config.dest));
     }
 );
+
+
+
+
+
 
 gulp.task('_build', ['_build:clean'], function () {
 
